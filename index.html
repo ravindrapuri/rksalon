@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RK Geetanjali Soni Salon | Beauty Clinic Pali</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+  <!-- CUSTOM CURSOR -->
+  <div class="cursor"></div>
+
+  <!-- OFFER POPUP -->
+  <div class="offer-popup" id="offerPopup">
+    <button class="close-popup" id="closePopup">×</button>
+    <h3>🎉 First Visit Offer</h3>
+    <p>Get 10% OFF on your first salon visit.</p>
+    <a href="https://wa.me/916377253819?text=Hello%20RK%20Salon,%20I%20want%20to%20claim%2010%25%20offer"
+      class="btn primary">Claim Offer</a>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <a href="#home" class="logo premium-logo">
+      <span class="logo-icon">✂</span>
+      <span class="logo-text">
+        <strong>RK</strong>
+        <small>Geetanjali Saloon</small>
+      </span>
+    </a>
+
+    <nav class="navbar" id="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#bridal">Bridal</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="menu" id="menuBtn">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </header>
+
+  <!-- HERO VIDEO SECTION -->
+  <section class="hero" id="home">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="https://cdn.coverr.co/videos/coverr-woman-getting-her-hair-styled-7465/1080p.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content reveal">
+      <p class="tagline">Premium Saloon • Makeup Studio • Beauty Clinic</p>
+      <h1>Luxury Saloon, Bridal Makeup & Beauty Clinic in Pali</h1>
+      <p class="hero-text">
+        Experience professional beauty services with expert artists, premium products and a luxury saloon environment.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="https://wa.me/916377253819?text=Hello%20RK%20Salon,%20I%20want%20to%20book%20an%20appointment"
+          class="btn primary">Book Appointment</a>
+        <a href="tel:+916377253819" class="btn secondary">Call Now</a>
+      </div>
+
+      <div class="rating-box">
+        <strong>4.7 ★</strong>
+        <span>885+ Google Reviews</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- COUNTER / TRUST -->
+  <section class="trust reveal">
+    <div>
+      <i class="fa-solid fa-award"></i>
+      <h3><span class="counter" data-target="3">0</span>+</h3>
+      <p>Years Experience</p>
+    </div>
+
+    <div>
+      <i class="fa-solid fa-crown"></i>
+      <h3><span class="counter" data-target="1200">0</span>+</h3>
+      <p>Bridal Makeovers</p>
+    </div>
+
+    <div>
+      <i class="fa-solid fa-users"></i>
+      <h3><span class="counter" data-target="885">0</span>+</h3>
+      <p>Happy Clients</p>
+    </div>
+
+    <div>
+      <i class="fa-solid fa-star"></i>
+      <h3><span class="counter" data-target="47">0</span>/10</h3>
+      <p>Google Rating</p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about reveal" id="about">
+    <div class="about-img"></div>
+
+    <div class="about-text">
+      <p class="section-sub">About Us</p>
+      <h2>RK Geetanjali Soni Saloon, Celebrity Makeup Studio & Beauty Clinic</h2>
+      <p>
+        We provide premium salon, bridal makeup, hair styling and beauty clinic services in Pali.
+        Our focus is clean finishing, premium beauty experience and customer satisfaction.
+      </p>
+      <a href="#contact" class="btn primary">Visit Salon</a>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section reveal" id="services">
+    <p class="section-sub center">Our Services</p>
+    <h2 class="center title">Professional Beauty Services</h2>
+
+    <div class="services-grid">
+      <div class="card"><i class="fa-solid fa-scissors"></i>
+        <h3>Haircut & Styling</h3>
+        <p>Trendy haircut, styling and professional finishing.</p>
+      </div>
+      <div class="card"><i class="fa-solid fa-ring"></i>
+        <h3>Bridal Makeup</h3>
+        <p>Premium bridal look for your special day.</p>
+      </div>
+      <div class="card"><i class="fa-solid fa-wand-magic-sparkles"></i>
+        <h3>Celebrity Makeup</h3>
+        <p>HD makeup, party makeup and glam looks.</p>
+      </div>
+      <div class="card"><i class="fa-solid fa-spa"></i>
+        <h3>Facial & Skin Care</h3>
+        <p>Skin care, facial and beauty clinic treatments.</p>
+      </div>
+      <div class="card"><i class="fa-solid fa-droplet"></i>
+        <h3>Hair Spa</h3>
+        <p>Relaxing hair spa for smooth and healthy hair.</p>
+      </div>
+      <div class="card"><i class="fa-solid fa-palette"></i>
+        <h3>Hair Color</h3>
+        <p>Global color, highlights and premium hair shades.</p>
+      </div>
+      <div class="card"><i class="fa-solid fa-hand-sparkles"></i>
+        <h3>Mehendi</h3>
+        <p>Bridal and party mehendi designs.</p>
+      </div>
+      <div class="card"><i class="fa-solid fa-heart"></i>
+        <h3>Party Makeup</h3>
+        <p>Elegant look for events, parties and functions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEFORE AFTER SLIDER -->
+  <section class="section before-after reveal">
+    <p class="section-sub center">Transformation</p>
+    <h2 class="center title">Before & After Beauty Result</h2>
+
+    <div class="compare-box">
+      <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=80"
+        class="before-img" alt="Before">
+      <div class="after-wrap" id="afterWrap">
+        <img src="https://images.unsplash.com/photo-1512316609839-ce289d3eba0a?auto=format&fit=crop&w=900&q=80"
+          alt="After">
+      </div>
+      <input type="range" min="0" max="100" value="50" id="compareRange">
+      <span class="before-label">Before</span>
+      <span class="after-label">After</span>
+    </div>
+  </section>
+
+  <!-- BRIDAL -->
+  <section class="section bridal reveal" id="bridal">
+    <div>
+      <p class="section-sub">Bridal Makeup</p>
+      <h2>Perfect Bridal Look for Your Wedding</h2>
+      <p>
+        Customized bridal makeup with flawless base, eye makeup, hairstyle, draping and final touchup for a premium
+        wedding look.
+      </p>
+
+      <ul>
+        <li>HD Bridal Makeup</li>
+        <li>Engagement & Reception Look</li>
+        <li>Hair Styling & Draping</li>
+        <li>Pre-Bridal Skin Care</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PACKAGE CALCULATOR -->
+  <section class="section calculator reveal">
+    <p class="section-sub center">Package Calculator</p>
+    <h2 class="center title">Create Your Bridal Package</h2>
+
+    <div class="calc-box">
+      <label><input type="checkbox" class="packageItem" data-price="5000"> HD Makeup ₹5000</label>
+      <label><input type="checkbox" class="packageItem" data-price="1500"> Hairstyle ₹1500</label>
+      <label><input type="checkbox" class="packageItem" data-price="1000"> Draping ₹1000</label>
+      <label><input type="checkbox" class="packageItem" data-price="2500"> Mehendi ₹2500</label>
+      <label><input type="checkbox" class="packageItem" data-price="2000"> Pre-Bridal Skin Care ₹2000</label>
+
+      <h3>Estimated Total: ₹<span id="totalPrice">0</span></h3>
+
+      <a href="https://wa.me/916377253819?text=Hello%20RK%20Salon,%20I%20want%20bridal%20package%20details"
+        class="btn primary">Send Package on WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section reveal" id="gallery">
+    <p class="section-sub center">Gallery</p>
+    <h2 class="center title">Salon & Makeup Gallery</h2>
+
+    <div class="gallery-grid masonry">
+      <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=700&q=80" alt="Salon">
+      <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=700&q=80"
+        alt="Makeup">
+      <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=700&q=80"
+        alt="Hair Styling">
+      <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=700&q=80"
+        alt="Beauty Salon">
+      <img src="https://images.unsplash.com/photo-1512316609839-ce289d3eba0a?auto=format&fit=crop&w=700&q=80"
+        alt="Bridal Look">
+      <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=700&q=80"
+        alt="Makeup Artist">
+    </div>
+  </section>
+
+  <!-- INSTAGRAM REELS -->
+  <section class="section instagram reveal">
+    <p class="section-sub center">Instagram</p>
+    <h2 class="center title">Latest Salon Reels</h2>
+
+    <div class="reel-grid">
+      <div class="reel-card"><i class="fa-brands fa-instagram"></i>
+        <p>Bridal Makeup Reel</p>
+      </div>
+      <div class="reel-card"><i class="fa-brands fa-instagram"></i>
+        <p>Hair Styling Reel</p>
+      </div>
+      <div class="reel-card"><i class="fa-brands fa-instagram"></i>
+        <p>Party Makeup Reel</p>
+      </div>
+    </div>
+
+    <div class="center">
+      <a href="#" class="btn primary">Follow on Instagram</a>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section pricing reveal" id="pricing">
+    <p class="section-sub center">Pricing</p>
+    <h2 class="center title">Popular Packages</h2>
+
+    <div class="price-grid">
+      <div class="price-card">
+        <h3>Hair Styling</h3>
+        <h4>₹499+</h4>
+        <p>Haircut, wash and basic styling.</p>
+      </div>
+
+      <div class="price-card featured">
+        <h3>Bridal Makeup</h3>
+        <h4>Contact for Price</h4>
+        <p>Complete bridal makeup package.</p>
+      </div>
+
+      <div class="price-card">
+        <h3>Party Makeup</h3>
+        <h4>₹1999+</h4>
+        <p>Party, function and glam look.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL SLIDER -->
+  <section class="section reviews reveal">
+    <p class="section-sub center">Reviews</p>
+    <h2 class="center title">Trusted by Local Customers</h2>
+
+    <div class="testimonial-slider">
+      <div class="testimonial active">
+        <h3>★★★★★</h3>
+        <p>Best bridal makeup in Pali. Very professional team.</p>
+        <strong>- Happy Bride</strong>
+      </div>
+
+      <div class="testimonial">
+        <h3>★★★★★</h3>
+        <p>Amazing hair spa and premium salon experience.</p>
+        <strong>- Salon Customer</strong>
+      </div>
+
+      <div class="testimonial">
+        <h3>★★★★★</h3>
+        <p>Clean work, beautiful finishing and friendly staff.</p>
+        <strong>- Local Client</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEAUTY ASSISTANT -->
+  <section class="section assistant-section reveal">
+    <p class="section-sub center">AI Beauty Assistant</p>
+    <h2 class="center title">What Service Are You Looking For?</h2>
+
+    <div class="assistant-box">
+      <button data-service="Bridal Makeup">👰 Bridal Makeup</button>
+      <button data-service="Hair Spa">💆 Hair Spa</button>
+      <button data-service="Facial">✨ Facial</button>
+      <button data-service="Party Makeup">💄 Party Makeup</button>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact reveal" id="contact">
+    <div class="contact-info">
+      <p class="section-sub">Contact</p>
+      <h2>Book Your Appointment Today</h2>
+
+      <p><i class="fa-solid fa-location-dot"></i> Pali, Rajasthan</p>
+      <p><i class="fa-solid fa-phone"></i> +91 63772 53819</p>
+      <p><i class="fa-brands fa-whatsapp"></i> WhatsApp Booking Available</p>
+
+      <iframe src="https://www.google.com/maps?q=Pali%20Rajasthan&output=embed" loading="lazy"></iframe>
+
+      <a href="https://www.google.com/maps/search/RK%20Geetanjali%20Soni%20Salon%20Pali" target="_blank"
+        class="btn primary direction-btn">Get Directions</a>
+    </div>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="tel" placeholder="Phone Number" required>
+
+      <select required>
+        <option value="">Select Service</option>
+        <option>Bridal Makeup</option>
+        <option>Haircut & Styling</option>
+        <option>Party Makeup</option>
+        <option>Facial & Skin Care</option>
+        <option>Hair Spa</option>
+        <option>Hair Color</option>
+      </select>
+
+      <textarea placeholder="Your Message"></textarea>
+
+      <button class="btn primary" type="submit">Send Enquiry on WhatsApp</button>
+    </form>
+  </section>
+
+  <!-- FLOATING BUTTONS -->
+  <a class="floating-book"
+    href="https://wa.me/916377253819?text=Hello%20RK%20Salon,%20I%20want%20to%20book%20an%20appointment">
+    📅 Book Appointment
+  </a>
+
+  <a class="whatsapp"
+    href="https://wa.me/916377253819?text=Hello%20RK%20Salon,%20I%20want%20to%20book%20an%20appointment">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- FOOTER -->
+  <footer>
+    <h3>RK Geetanjali Soni Salon</h3>
+    <p>Celebrity Makeup Studio & Beauty Clinic Pali</p>
+    <p>© 2026 All Rights Reserved.</p>
+  </footer>
+
+</body>
+
+</html>
